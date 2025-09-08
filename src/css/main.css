@@ -11,4 +11,42 @@ a {
 img,
 video {
   display: block;
+  max-width: 100%;
+}
+body {
+  background-color: #E7EAEE;
+  color: #000;
+font-family: sans-serif;
+font-size: 27px;
+font-style: normal;
+font-weight: 400;
+}
+p{
+line-height: 35px; /* 129.63% */
+}
+.card{
+display: flex;
+max-width: 370px;
+padding: 15px;
+flex-direction: column;
+gap: 20px;
+flex-shrink: 0;
+}
+.author{
+  display: flex;
+  gap: 20px;
+}
+.author img{
+  width: 56px;
+height: 56px;
+border-radius: 50%;
+}
+.author h1{
+  line-height: 24px; /* 120% */
+  font-size: 20px;
+  font-weight: 400;}
+.author p{
+  font-size: 16px;
+  line-height: 19px; /* 120% */
+  color: rgba(0, 0, 0, 0.50);
 }
