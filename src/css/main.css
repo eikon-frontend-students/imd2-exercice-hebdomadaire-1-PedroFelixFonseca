@@ -16,21 +16,24 @@ video {
 body {
   background-color: #E7EAEE;
   color: #000;
-font-family: roboto;
-font-size: 27px;
-font-style: normal;
-font-weight: 400;
+  font-family: roboto;
+  font-size: 27px;
+  font-style: normal;
+  font-weight: 400;
 }
 p{
-line-height: 35px; /* 129.63% */
+  font-weight: 400;
+  line-height: 35px; /* 129.63% */
 }
 .card{
-display: flex;
-max-width: 370px; 
-padding: 15px;
-flex-direction: column;
-gap: 20px;
-flex-shrink: 0;
+  max-width: 370px; 
+  background-color: #fff;
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  padding: 15px;
+  margin: 50px ;
+  border-radius: 25px;
 }
 .author{
   display: flex;
@@ -38,13 +41,14 @@ flex-shrink: 0;
 }
 .author img{
   width: 56px;
-height: 56px;
-border-radius: 50%;
+  height: 56px;
+  border-radius: 50%;
 }
 .author h1{
   line-height: 24px; /* 120% */
   font-size: 20px;
-  font-weight: 400;}
+  font-weight: 400;
+}
 .author p{
   font-size: 16px;
   line-height: 19px; /* 120% */
